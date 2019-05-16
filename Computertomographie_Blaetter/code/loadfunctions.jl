@@ -2,7 +2,7 @@ module CT
     #using Pkg
     #Pkg.add("GenericSVD")
     #Pkg.add("JLD")
-    #Pkg.add("LineareAlgebra")
+    #Pkg.add("LinearAlgebra")
     #Pkg.add("Plots")
     #Pkg.add("NLopt")
     #Pkg.add("Random")
