@@ -1,21 +1,21 @@
 function  Bilderrekonstruktion(Auswahl,Aufloesung,prozent,p)
 
 if Auswahl == "Bild1"
-    Daten1 = load("figs/CTKrabbe.jpg");
+    Daten1 = load("../Computertomographie_Bilder/CTKrabbe.jpg");
 elseif Auswahl == "Bild2"
-    Daten1 = load("figs/CTEidechse.jpg")
+    Daten1 = load("../Computertomographie_Bilder/CTEidechse.jpg")
 elseif Auswahl == "Bild3"
-    Daten1 = load("figs/CTFisch.jpg")
+    Daten1 = load("../Computertomographie_Bilder/CTFisch.jpg")
 elseif Auswahl == "Bild4"
-    Daten1 = load("figs/CTFledermaus.jpg")
+    Daten1 = load("../Computertomographie_Bilder/CTFledermaus.jpg")
 elseif Auswahl == "Bild5"
-    Daten1 = load("figs/CTChamaeleon.jpg")
+    Daten1 = load("../Computertomographie_Bilder/CTChamaeleon.jpg")
 elseif Auswahl == "Bild6"
-    Daten1 = load("figs/CTSchildkroete.jpg")
+    Daten1 = load("../Computertomographie_Bilder/CTSchildkroete.jpg")
 elseif Auswahl == "Bild7"
-    Daten1 = load("figs/CTSeepferdchen.jpg")
+    Daten1 = load("../Computertomographie_Bilder/CTSeepferdchen.jpg")
 elseif Auswahl == "Bild8"
-    Daten1 = load("figs/CTFrosch.jpg")
+    Daten1 = load("../Computertomographie_Bilder/CTFrosch.jpg")
 elseif Auswahl == "NaN" 
     print("Ihr müsst das NaN durch Bild1, ... oder Bild8 ersetzen.");
 end

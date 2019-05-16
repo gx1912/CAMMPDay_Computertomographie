@@ -12,7 +12,6 @@ module CT
     #Pkg.add("ImageMagick")
     #Pkg.add("Images")
     #Pkg.add("FixedPointNumbers")
-    #Pkg.add("ImageView")
     #Pkg.add("ImageDraw")
     using GenericSVD
     using JLD
@@ -26,7 +25,6 @@ module CT
     using ImageMagick
     using Images
     using FixedPointNumbers
-    using ImageView
     using ImageDraw
     # AB 1
     include("ueberpruefeAbsorptionskoeffizienten2x2.jl");

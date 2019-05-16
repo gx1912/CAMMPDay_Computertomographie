@@ -94,7 +94,7 @@ if display4 == 1 && display3 == 1 && display2 == 1 && display1 == 1 && display0 
     #    println("****Macht weiter mit Aufgabenblatt 1b.****")
     #end
     println("Für die nächste Aufgabe benötigt ihr dieses Bild:\n")
-    Daten = load("figs/ObjektvieleStrahlen2.png");
+    Daten = load("../Computertomographie_Bilder/ObjektvieleStrahlen2.png");
     
 elseif display4 == 1 && display3 == 1 && display2 == 1 && display1 == 1 && display0 == 1 && mMatrix[1] == mneu[1]
     println("Überprüft eure Berechnung von m erneut. Beachtet, dass auch hier die Länge der Pixel berücksichtigt werden müssen.")

@@ -1,6 +1,6 @@
 function  echteCTDaten(Aufloesung)
-#Daten1 = load("figs/Bild48log.jpg");
-Daten1 = load("figs/Bild48log2.jpg");
+#Daten1 = load("../Computertomographie_Bilder/Bild48log.jpg");
+Daten1 = load("../Computertomographie_Bilder/Bild48log2.jpg");
 Daten = Gray.(Daten1)
     #print(Daten2)
 out = convert(Array{Float64,2}, Daten); #convert GrayMatrix into Float64, bei Vektor müsste die 2 durch eine 1ersetzt werden
